@@ -37,7 +37,7 @@
                         android:layout_height="40dp" />
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/textViewRegistrate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/registro"
@@ -50,7 +50,7 @@
                         android:layout_height="60dp" />
 
                     <EditText
-                        android:id="@+id/editTextTextEmailAddress"
+                        android:id="@+id/editTextNombre"
                         android:layout_width="match_parent"
                         android:layout_height="48dp"
                         android:layout_marginTop="20dp"
@@ -58,6 +58,47 @@
                         android:padding="10dp"
                         android:ems="10"
                         android:hint="@string/nombre" />
+
+                    <EditText
+                        android:id="@+id/editTextApellido"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bordes"
+                        android:padding="10dp"
+                        android:ems="10"
+                        android:hint="@string/apellido" />
+
+                    <EditText
+                        android:id="@+id/editTextCedula"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bordes"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:ems="10"
+                        android:hint="@string/cedula" />
+
+                    <EditText
+                        android:id="@+id/editTextCelular"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bordes"
+                        android:padding="10dp"
+                        android:ems="10"
+                        android:hint="@string/celular" />
+
+                    <EditText
+                        android:id="@+id/editTextDireccion"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/bordes"
+                        android:padding="10dp"
+                        android:ems="10"
+                        android:hint="@string/direccion" />
 
                     <EditText
                         android:id="@+id/editTextCorreo"
@@ -105,6 +146,13 @@
                         android:layout_height="wrap_content"
                         android:text="@string/acepto_pol_tica_para_tratamientos_de_datos" />
 
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switchAdmin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/admin" />
+
                     <Button
                         android:id="@+id/buttonRegistar"
                         android:layout_width="160dp"
@@ -113,6 +161,15 @@
                         android:layout_marginTop="10dp"
                         android:backgroundTint="#795548"
                         android:text="@string/registro" />
+
+                    <Button
+                        android:id="@+id/buttonIngresar"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:backgroundTint="#795548"
+                        android:text="@string/ingresar" />
 
                     <Space
                         android:layout_width="match_parent"
